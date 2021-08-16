@@ -18,7 +18,7 @@ body {
 }
 
 .main-dl{
-  width: 180px;
+  width: 165px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -57,6 +57,26 @@ body {
     font-size: 36px;
   }
 }
+
+@media only screen and (max-width:570px) {
+  .main-logo{
+    width: 210px;
+    height: 210px;
+  }
+
+  .main-title{
+    font-size: 28px;
+  }
+
+  .main-desc{
+    font-size: 12px;
+  }
+
+  .main-dl{
+    width: 100%;
+  }
+}
+
 
 @media only screen and (max-width:476px) {
   .main-heading{
