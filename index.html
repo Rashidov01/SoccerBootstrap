@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Ecommerce</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+  <link rel="stylesheet" href="style/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -14,8 +14,120 @@
 
 <body class="d-flex flex-column h-100 bg-white">
 
-  
+  <div class="container-lg">
+    <header class="header mb-5">
+      <nav class="header-nav navbar navbar-expand-sm navbar-light bg-light mt-2"
+        style="border-bottom: 2px solid #e9e9e9;">
+        <a href="/index.html" class="navbar-brand p-0 mr-0 ">
+          <img src="/img/logo.svg" alt="logo">
+        </a>
 
+        <button class="navbar-toggler bg-transparent border-0" type="button" data-toggle="collapse"
+          data-target="#soccer-nav" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation" style="padding: 0;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="header-nav__wrapper collapse navbar-collapse" id="soccer-nav">
+          <ul class="header-nav__list navbar-nav ml-auto mt-3 mt-sm-0">
+            <li class="header-nav__list-item nav-item mb-2 mb-sm-0" style="font-size: 14px;">
+              <a class="header-nav__list-link nav-link py-0 active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="header-nav__list-item nav-item mb-2 mb-sm-0" style="font-size: 14px;">
+              <a class="nav-link py-0" href="#">Championship</a>
+            </li>
+
+            <li class="header-nav__list-item nav-item mb-2 mb-sm-0" style="font-size: 14px;">
+              <a class="nav-link py-0" href="#">News</a>
+            </li>
+
+            <li class="header-nav__list-item nav-item mb-2 mb-sm-0" style="font-size: 14px;">
+              <a class="nav-link py-0" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="main-top text-center">
+        <h2 class="main-heading h1 display-4 text-center">Today's match</h2>
+        <img src="./img/uefa-logo.svg" alt="" width="50px" height="50px">
+      </div>
+
+      <div class="row">
+        <div class="col-4 text-center">
+          <a href="#">
+            <img class="main-logo mb-3" src="./img/real-madrid.svg" alt="" width="250px" height="250px">
+          </a>
+
+          <h3 class="main-title name h4 font-weight-bold mb-4">Real madrid</h3>
+
+          <dl>
+            <div class="main-description mb-2 d-flex justify-content-center">
+              <div class="d-flex">
+                <dt class="p-0 mr-2 font-weight-normal text-secondary">Wins:</dt>
+                <dd class="p-0 mr-2 mb-0">100 |</dd>
+              </div>
+
+              <div class="d-flex">
+                <dt class="p-0 mr-2 font-weight-normal text-secondary">loses:</dt>
+                <dd class="p-0 mr-2 mb-0">0 |</dd>
+              </div>
+
+              <div class="d-flex">
+                <dt class="p-0 mr-2 font-weight-normal text-secondary">Drawns:</dt>
+                <dd class="p-0 mr-0 mb-0">0</dd>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+              <dt class="mr-2 text-secondary font-weight-normal">Leaderboard position:</dt>
+              <dd>1</dd>
+            </div>
+          </dl>
+
+        </div>
+
+        <div class="col-4">
+
+        </div>
+
+        <div class="col-4 text-center">
+          <a href="#">
+            <img class="main-logo mb-3" src="./img/pakhtakor.svg" alt="" width="250px" height="250px">
+          </a>
+
+          <h3 class="main-title name h4 font-weight-bold mb-4">Pakhtakor FC</h3>
+
+          <dl>
+            <div class="main-description mb-2 d-flex justify-content-center">
+              <div class="d-flex">
+                <dt class="p-0 mr-2 font-weight-normal text-secondary">Wins:</dt>
+                <dd class="p-0 mr-2 mb-0">100 |</dd>
+              </div>
+
+              <div class="d-flex">
+                <dt class="p-0 mr-2 font-weight-normal text-secondary">loses:</dt>
+                <dd class="p-0 mr-2 mb-0">100 |</dd>
+              </div>
+
+              <div class="d-flex">
+                <dt class="p-0 mr-2 font-weight-normal text-secondary">Drawns:</dt>
+                <dd class="p-0 mr-0 mb-0">0</dd>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+              <dt class="mr-2 text-secondary font-weight-normal">Leaderboard position:</dt>
+              <dd>10</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </main>
+  </div>
 
   <footer class="site-footer py-3 mt-auto text-center bg-white">
     <div class="container">
